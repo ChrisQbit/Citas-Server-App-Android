@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="50dp"
+    tools:context=".CancelCitaActivity" >
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="231dp"
+        android:layout_height="149dp"
+
+        android:hint="Razón de Cancelación."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" >
+
+    </EditText >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp"
+        android:text="Empresa:"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </TextView >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="168dp"
+        android:text="Empresa x Nombre"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_cita"
+        android:layout_width="235dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="16dp"
+        android:text="XX:XX:XXXX XX:XXPM"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </TextView >
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Cancelar Cita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >
+
